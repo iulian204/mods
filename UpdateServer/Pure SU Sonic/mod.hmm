@@ -60,10 +60,6 @@ WriteNop(0xE64F33, 4)
 Patch "Fix Skydive Collision Detection" by "N69"
 WriteNop(0x119822E, 18)
 
-Patch "All Rings Can Be Light Dashed" by "Skyth"
-WriteProtected<uint>(0x105334D, 0x10C47C6)
-WriteNop(0x1053351, 16)
-
 Patch "Unleashed Voice Swap" by "brianuuu"
 WriteProtected<byte>(0x123196F, 0x14);
 WriteProtected<uint>(0x1231971, 0x2DCE9D); /*Lightdash*/
