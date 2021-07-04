@@ -1,0 +1,73 @@
+Patch "Longer Blue Trail" by "N69 & Nekit"
+WriteProtected<ushort>(0xE5FB17, 0x9090)
+WriteProtected<ushort>(0xE5FB19, 0x9090)
+WriteProtected<ushort>(0xE5FB1B, 0x9090)
+WriteProtected<byte>(0xE5FE10, 0x48)
+WriteProtected<byte>(0xE5FE70, 0x48)
+
+Patch "Disable Fast Fall Animation" by "Skyth"
+WriteProtected<byte>(0x111913A, 0xEB);
+
+Patch "No Boosting Animation When Grinding" by "Skyth"
+WriteProtected<ushort>(0xDF2380, 0xA4E9)
+WriteProtected<byte>(0xDF2382, 0x0)
+WriteNop(0xDF2385, 1)
+
+Patch "Boost Gauge Starts Empty" by "PTKickass"
+WriteProtected<uint>(0xE64F2F, 0x90C9570F)
+WriteNop(0xE64F33, 4)
+
+Patch "Fix Sonic's Legs Swinging Too High" by "Skyth"
+WriteProtected<byte>(0x117F371, 0xE9, 0x35, 0x02, 0x00, 0x00, 0x90);
+WriteProtected<byte>(0x117F5C8, 0xEB);
+
+Patch "Disable Brightness Adjustment" by "Skyth"
+WriteProtected<byte>(0xD68183, 0x83, 0xC4, 0x08, 0x90, 0x90);
+Patch "Disable Light Dash Particles" by "Hyper"
+WriteProtected<byte>(0x10538EB, 0xE9, 0x8F, 0x00, 0x00, 0x00, 0x90);
+
+Patch "Disable Lap Time Display" by "Hyper"
+WriteProtected<byte>(0x10976EF, 0x90, 0xE9);
+
+Code "Full Resolution Distortion Effects" by "Luig"
+Write<float>(0x01B22E6C, 1f)
+
+Patch "No Out of Control Balloons" by "N69"
+WriteProtected<uint>(0x11BEBAA, 0xB6E9)
+WriteProtected<byte>(0x11BEBAE, 0x0)
+WriteNop(0x11BEBAF, 2)
+
+Patch "No Out of Control Jump Springs" by ""
+WriteProtected<uint>(0x11BEA91, 0x1CFE9)
+WriteProtected<ushort>(0x11BEA95, 0x8B00)
+WriteProtected<byte>(0x11BEA97, 0x83)
+
+Patch "Use Bumpers to Switch Grind Rails" by "Skyth"
+WriteProtected<uint>(0xDFCC92, 0x10244C8B)
+WriteNop(0xDFCC96, 2)
+WriteProtected<ushort>(0xDFCC99, 0xE1BA)
+WriteProtected<byte>(0xDFCC9B, 0xD)
+WriteNop(0xDFCC9C, 3)
+WriteProtected<byte>(0xDFCC9F, 0x73)
+WriteProtected<uint>(0xDFCCA8, 0xCE1BA0F)
+WriteNop(0xDFCCAC, 7)
+WriteProtected<byte>(0xDFCCB3, 0x73)
+
+Patch "Boost Gauge Starts Empty" by "PTKickass"
+WriteProtected<uint>(0xE64F2F, 0x90C9570F)
+WriteNop(0xE64F33, 4)
+
+Patch "Fix Skydive Collision Detection" by "N69"
+WriteNop(0x119822E, 18)
+
+Patch "Unleashed Voice Swap" by "brianuuu"
+WriteProtected<byte>(0x123196F, 0x14);
+WriteProtected<uint>(0x1231971, 0x2DCE9D); /*Lightdash*/
+WriteProtected<uint>(0xE4B684, 0xFFFFFF); /*Tricks (disable)*/
+WriteProtected<byte>(0xE4B8DE, 0x14);
+WriteProtected<uint>(0xE4B8E0, 0x2DCE9D); /*Trick finish*/
+WriteProtected<uint>(0xDF3710, 0x2DCEA3); /*Drift*/
+WriteProtected<byte>(0xDF0C06, 0x14);
+WriteProtected<uint>(0xDF0C08, 0x2DCE9D); /*4-way cannon (false direction on Unleashed jump selector)*/
+WriteProtected<byte>(0xDF0B94, 0x14);
+WriteProtected<uint>(0xDF0B96, 0x2DCE9D); /*true direction on Unleashed jump selector (Unused in Generations)*/
