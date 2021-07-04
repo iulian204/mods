@@ -1,2 +1,2 @@
-## Pure SU Sonic v1.1
+## Pure SU Sonic v1.0
 Initial release!
