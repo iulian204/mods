@@ -55,6 +55,8 @@ delete disk/bb3/SonicWater.ar.00
 delete disk/bb3/SonicWater.arl
 delete disk/bb3/#Sonic.ar.00
 delete disk/bb3/#Sonic.arl
+delete disk/bb3/voices/English/SonicVoice.ar.00
+delete disk/bb3/voices/English/SonicVoice.arl
 add disk_main/bb/ActionCommon.ar.00
 add disk_main/bb/ActionCommon.arl
 add disk_main/bb/cmn100.ar.00
