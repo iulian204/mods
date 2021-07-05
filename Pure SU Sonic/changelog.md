@@ -1,5 +1,5 @@
 ## Pure SU Sonic 1.1
-Test Release
+2nd test rleease
 
 ## Pure SU Sonic 1.0
 First version of the mod:
