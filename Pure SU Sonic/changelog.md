@@ -1,5 +1,9 @@
 ## Pure SU Sonic 1.1
-2nd test rleease
+Second version of this mod:
+- Fixed shoe buckle material
+- Reworked filesystem
+- Implemented physics configuration
+
 
 ## Pure SU Sonic 1.0
 First version of the mod:
