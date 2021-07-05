@@ -111,4 +111,5 @@ add disk_main/bb3/SonicWater.arl
 add disk_physics/bb3/#Sonic.ar.00
 add disk_physics/bb3/#Sonic.arl
 add disk_dummy/dummy.txt
+add config.json
 add mod.ini
