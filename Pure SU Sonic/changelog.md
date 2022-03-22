@@ -1,3 +1,15 @@
+## Pure SU Sonic 2.0
+Howdy! This is the fourth and final version of this mod. Thank you for your patience!
+- Restored SU air rotation value
+- Puyo restored the shaders/.material files for Sonic. This took them ages to do.
+- Puyo recreated SU's particles for the boost, stomp, slide trail & lightdash. I edited the boost and stomp a bit for more accuracy.
+- Puyo recreated the Unleashed homing recticule.
+- Tuanpingas restored the correct jumpselector animations.
+- 2D speed has been reverted to Gens' value, 35, as 30 is too slow and would only work well if rings adding to velocity was resotred in Generations.
+- Unleashed Chaos Orbs! These look great and even have an animation that mimics their behaviour in Unleashed.
+- Brianuuu's and Mario's work on Jason's voice is in! Rank quotes galore!
+- Enjoy!
+
 ## Pure SU Sonic 1.2
 Third version of this mod:
 - Removed air drag from the air boosts as SU does not have this (this was on oversight, sorry)
