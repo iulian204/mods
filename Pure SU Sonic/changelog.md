@@ -1,7 +1,7 @@
 ## Pure SU Sonic 2.0
 Howdy! This is the fourth and final version of this mod. Thank you for your patience!
 - Restored SU air rotation value
-- Puyo restored the shaders/.material files for Sonic. This took them ages to do.
+- Puyo restored the shaders/.material files for Sonic. This took them ages to do so please don't discredit their work.
 - Puyo recreated SU's particles for the boost, stomp, slide trail & lightdash. I edited the boost and stomp a bit for more accuracy.
 - Puyo recreated the Unleashed homing recticule.
 - Tuanpingas restored the correct jumpselector animations.
