@@ -8,6 +8,9 @@ Howdy! This is the fourth and final version of this mod. Thank you for your pati
 - 2D speed has been reverted to Gens' value, 35, as 30 is too slow and would only work well if rings adding to velocity was resotred in Generations.
 - Unleashed Chaos Orbs! These look great and even have an animation that mimics their behaviour in Unleashed.
 - Brianuuu's and Mario's work on Jason's voice is in! Rank quotes galore!
+- Added a new camera file, allowing Skyth's Unleashed camera HMM code to work properly when using this mod
+- Added some other HMM codes
+- Other minor changes
 - Enjoy!
 
 ## Pure SU Sonic 1.2
