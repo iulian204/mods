@@ -4,7 +4,9 @@ Howdy! This is the fourth and final version of this mod. Thank you for your pati
 - Puyo restored the shaders/.material files for Sonic. This took them ages to do so please don't discredit their work.
 - Puyo recreated SU's particles for the boost, stomp, slide trail & lightdash. I edited the boost and stomp a bit for more accuracy.
 - Puyo recreated the Unleashed homing recticule.
+- Puyo restored the SU eye UV animations for the rank animations.
 - Tuanpingas restored the correct jumpselector animations.
+- Exe.Qution restored the Unleashed wall running animations.
 - 2D speed has been reverted to Gens' value, 35, as 30 is too slow and would only work well if rings adding to velocity was resotred in Generations.
 - Unleashed Chaos Orbs! These look great and even have an animation that mimics their behaviour in Unleashed.
 - Brianuuu's and Mario's work on Jason's voice is in! Rank quotes galore!
