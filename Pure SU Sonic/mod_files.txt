@@ -1,12 +1,3 @@
-delete disk_physics/bb3/#Sonic.ar.00
-delete disk_physics/bb3/#Sonic.arl
-delete disk_main/bb3/voices/English/SonicVoice.ar.00
-delete disk_main/bb3/voices/English/SonicVoice.arl
-delete disk_main/bb3/Sonic.ar.00
-delete disk_main/bb3/Sonic.ar.01
-delete disk_main/bb3/Sonic.ar.02
-delete disk_main/bb3/Sonic.ar.03
-delete disk_main/bb3/Sonic.arl
 add disk_main/bb/cmn200.ar.00
 add disk_main/bb/cmn200.ar.01
 add disk_main/bb/cmn200.arl
@@ -14,6 +5,9 @@ add disk_main/bb/SonicActionCommon.ar.00
 add disk_main/bb/SonicActionCommon.arl
 add disk_main/bb/#cmn200.ar.00
 add disk_main/bb/#cmn200.arl
+add disk_main/bb2
+add disk_main/bb2/EnemyCommon.ar.00
+add disk_main/bb2/EnemyCommon.arl
 add disk_main/bb3/Sonic.ar.00
 add disk_main/bb3/Sonic.ar.01
 add disk_main/bb3/Sonic.ar.02
@@ -23,9 +17,6 @@ add disk_main/bb3/voices/English/SonicVoice.ar.00
 add disk_main/bb3/voices/English/SonicVoice.arl
 add disk_physics/bb3/#Sonic.ar.00
 add disk_physics/bb3/#Sonic.arl
-add disk_main/bb2
-add disk_main/bb2/EnemyCommon.ar.00
-add disk_main/bb2/EnemyCommon.arl
 add disk_physics/bb3/#Sonic.ar.00
 add disk_physics/bb3/#Sonic.arl
 add mod.ini
