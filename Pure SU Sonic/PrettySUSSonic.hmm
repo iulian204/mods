@@ -11,13 +11,6 @@ WriteProtected<byte>(0x111913A, 0xEB);
 Patch "Fix Skydive Collision Detection" by "N69"
 WriteNop(0x119822E, 18)
 
-Patch "Unleashed Style Grinding Animations" by "Skyth"
-WriteProtected<ushort>(0xDF2380, 0xA4E9);
-WriteProtected<byte>(0xDF2382, 0x0);
-WriteNop(0xDF2385, 1);
-WriteProtected<byte>(0xDF2356, 0xEB);
-WriteProtected<byte>(0xDF2485, 0xEB);
-
 Patch "Unleashed Voice Swap" by "brianuuu"
 WriteProtected<byte>(0x123196F, 0x14);
 WriteProtected<uint>(0x1231971, 0x2DCE9D); /*Lightdash*/
