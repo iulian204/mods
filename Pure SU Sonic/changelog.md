@@ -1,3 +1,9 @@
+## Pure SU Sonic 2.0.1
+I pinky promise this is the FINAL version!
+- Removed the old rail code from a previous version of brianuuu's mod
+- Removed Unleashed Style Camera code from the mod as a lot of you seem to have this enabled lol. Having this enabled twice causes a crash so you don't need to worry about this anymore.
+- Fixed the Quickstep in ForwardView overshooting. Value is now 1, from 2. This was an oversight, my apologies. Thank you, oliver1_ for pointing this out!
+
 ## Pure SU Sonic 2.0
 Howdy! This is the fourth and final version of this mod. Thank you for your patience!
 - Restored SU air rotation value
