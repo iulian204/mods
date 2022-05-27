@@ -1,0 +1,32 @@
+Patch "Longer Blue Trail" by "N69 & Nekit"
+WriteProtected<ushort>(0xE5FB17, 0x9090)
+WriteProtected<ushort>(0xE5FB19, 0x9090)
+WriteProtected<ushort>(0xE5FB1B, 0x9090)
+WriteProtected<byte>(0xE5FE10, 0x48)
+WriteProtected<byte>(0xE5FE70, 0x48)
+
+Patch "Disable Fast Fall Animation" by "Skyth"
+WriteProtected<byte>(0x111913A, 0xEB);
+
+Patch "No Boosting Animation When Grinding" by "Skyth"
+WriteProtected<ushort>(0xDF2380, 0xA4E9)
+WriteProtected<byte>(0xDF2382, 0x0)
+WriteNop(0xDF2385, 1)
+
+Patch "Boost Gauge Starts Empty" by "PTKickass"
+WriteProtected<uint>(0xE64F2F, 0x90C9570F)
+WriteNop(0xE64F33, 4)
+
+Patch "Use Bumpers to Switch Grind Rails" by "Skyth"
+WriteProtected<uint>(0xDFCC92, 0x10244C8B)
+WriteNop(0xDFCC96, 2)
+WriteProtected<ushort>(0xDFCC99, 0xE1BA)
+WriteProtected<byte>(0xDFCC9B, 0xD)
+WriteNop(0xDFCC9C, 3)
+WriteProtected<byte>(0xDFCC9F, 0x73)
+WriteProtected<uint>(0xDFCCA8, 0xCE1BA0F)
+WriteNop(0xDFCCAC, 7)
+WriteProtected<byte>(0xDFCCB3, 0x73)
+
+Patch "Fix Skydive Collision Detection" by "N69"
+WriteNop(0x119822E, 18)

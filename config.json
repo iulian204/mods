@@ -1,0 +1,44 @@
+{
+   "Groups":[
+      {
+         "Name":"Main",
+         "DisplayName":"Configuration",
+         "Elements":
+         [
+			{
+               "Name":"IncludeDir1",
+               "DisplayName":"Sonic's Physics",
+               "Description":[
+                  "Determines if the game will use Unleashed physics or vanilla Generations physics",
+               ],
+               "Type":"PhysicsEnum",
+               "MinValue":null,
+               "MaxValue":null,
+               "DefaultValue":"disk_physics"
+            },
+			
+         ]
+      }
+   ],
+   "Enums":{
+      "PhysicsEnum":[
+         {
+            "DisplayName":"Unleashed physics",
+            "Value":"disk_physics",
+            "Description":[
+               "Use Unleashed physics",
+            ]
+         },
+		 {
+            "DisplayName":"Generations physics",
+            "Value":"disk_dummy",
+            "Description":[
+              "Use vanilla Generations physics
+                ",
+            ]
+         },
+		 
+      ],
+   },
+   "IniFile":"mod.ini"
+}
