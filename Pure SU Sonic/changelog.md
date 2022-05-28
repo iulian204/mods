@@ -1,3 +1,6 @@
+## Pure SU Sonic 2.0.2
+- Improved Sonic's materials
+
 ## Pure SU Sonic 2.0.1
 I pinky promise this is the FINAL version!
 - Removed the old rail code from a previous version of brianuuu's mod
